@@ -1,0 +1,40 @@
+---
+title: "qqr Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{qqr Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = TRUE,
+  background = "white"
+)
+```
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+library(qqr)
+```
+This package provides data about the brazilian soccer championship from 2014 to 2020. 
+
+To get the data of the 2014 championship, use the function data(), to get the "BRSoccer2014" data:
+
+```{r, echo=TRUE, background="white"}
+data("BRSoccer2014")
+```
+
+To get the data of any championship between 2015 and 2019, use the function previousData() setting the argument 'year' to the desired your of the championship:
+
+```{r}
+previousData(year = 2018)
+```
+
+To get the data of the current championship, use the function currentData(), which needs no arguments. Remember that this data covers the results available at the moment you are running the function.
+
+```{r}
+currentData()
+```

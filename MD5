@@ -1,0 +1,16 @@
+9f92f97aa29563eddd9df28811901b5e *DESCRIPTION
+cf99fd6ccc3a6875f4bb678f87290740 *NAMESPACE
+dab336d2eb88d16f8acf69f31c6f7cb8 *R/BRSoccer2014.R
+918e389c703ce2cb1c52ef6b6becdaa1 *R/currentData.R
+f8ac764096199656a52f920d7fbc752f *R/previousData.R
+d5808611670b38c580dd8cee25e0a015 *R/print.tabelaBR.R
+0d6641654722f8b46dbb67c4565b55d0 *build/vignette.rds
+41bc5a9ef9a0cb96e8b1f48d40d02486 *data/BRSoccer2014.rda
+0036fbd70b1b6100638bf33766dd40ab *inst/doc/qqr_Package.R
+619799cb19c1be91fbe19a7c4a06805d *inst/doc/qqr_Package.Rmd
+33eef610fce0839898d7eabcb4c77467 *inst/doc/qqr_Package.html
+fec2826f05c1e00f7424d7af47792c4f *man/BRSoccer2014.Rd
+4302a8a9ce6d8a768d994145bd2b2a66 *man/currentData.Rd
+e02928a6d91aff84fa9db3bea88d1f4a *man/previousData.Rd
+1bf10d5ddea8e9e988f9a626282f4d2c *man/print.tabelaBR.Rd
+619799cb19c1be91fbe19a7c4a06805d *vignettes/qqr_Package.Rmd
